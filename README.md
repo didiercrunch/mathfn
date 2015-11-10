@@ -9,6 +9,12 @@
 npm install mathfn
 ```
 
+### In a web browser
+
+```html
+<script src="mathfn/dist/mathfn.js"></script>
+```
+
 ## Example
 
 ```javascript
@@ -78,7 +84,7 @@ pattern used in this module. Futhermore they also take advanges of the special
 
 When `x` is a very small number computers calculates `ln(1 + x)` as `ln(1)` which
 is `zero` and then every thing is lost. This is a specific approximation of
-`ln(1 + x)` and should be used only in case of small values. 
+`ln(1 + x)` and should be used only in case of small values.
 
 ##### `y = logFactorial(x)` - Calculates `y = ln(x!)`
 
